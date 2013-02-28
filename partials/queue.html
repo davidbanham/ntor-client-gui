@@ -1,0 +1,27 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Name</th>
+						<th>Size</th>
+						<th>Progress</th>
+					</tr>
+				</thead>
+				<tbody ng-repeat="item in queue">
+					<tr>
+						<td class="btn-group">
+							<button ng-click="remove(item)" class="btn btn-danger">Remove</button>
+							<button ng-click="grab(item)" class="btn btn-primary">Download Now</button>
+						</td>
+						<td>{{item.name}}</td>
+						<td>{{bytesToSize(item.size)}}</td>
+						<td>{{item.percentDown || 0}}%</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "ntor-client-gui",
+  "version": "0.0.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false
+  },
+  "dependencies": {
+    "tar": "~0.1.16",
+    "request": "~2.14.0"
+  }
+}
