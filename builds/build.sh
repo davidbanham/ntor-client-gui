@@ -6,7 +6,7 @@ echo "Creating app.nw package"
 cd ../ && zip -r app.nw ./* --exclude ./builds/\* && cd builds && echo "Success!"
 
 echo "Creating OSX package"
-cp ../app.nw osx/node-webkit.app/Contents/Resources/ && echo "Success!"
+cp ../app.nw osx/ntor-client-gui.app/Contents/Resources/ && cd osx && zip -r ntor-client-gui.app.zip ntor-client-gui.app && cd .. && echo "Success!"
 
 echo "Creating Windows package"
 rm windows/ntor-gui.zip

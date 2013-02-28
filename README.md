@@ -9,4 +9,9 @@ It is built on [node-webkit](https://github.com/rogerwang/node-webkit "node-webk
  Then, just zip everything up. On OSX or most any other nix the command is
 	zip -r app.nw ./* --exclude builds/\*
 
-Prebuilt packages for OSX and Windows are available in build/
+Prebuilt packages for OSX and Windows are available here:
+
+[OSX](https://s3.amazonaws.com/ntor-client-gui/0.1.0/osx/ntor-client-gui.app.zip "Compilied OSX binary")
+[Windows](https://s3.amazonaws.com/ntor-client-gui/0.1.0/windows/ntor-gui.zip "Compilied Windows binary")
+
+And the generic .nw package is available [here](https://s3.amazonaws.com/ntor-client-gui/0.1.0/app.nw "Compiled .nw package").
