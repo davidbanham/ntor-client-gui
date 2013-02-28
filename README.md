@@ -7,6 +7,6 @@ This agent will report back to ntor with progress updates so you can monitor it 
 It is built on [node-webkit](https://github.com/rogerwang/node-webkit "node-webkit github repository"). To create a node-webkit package from the source, first install the required NPM modules with:
 	npm install
  Then, just zip everything up. On OSX or most any other nix the command is
-	zip -r app.nw ./*
+	zip -r app.nw ./* --exclude builds/\*
 
-Prebuilt packages will be available soon.
+Prebuilt packages for OSX and Windows are available in build/
